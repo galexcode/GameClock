@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E8342817847E74001C3B5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E8342717847E74001C3B5B /* UIKit.framework */; };
+		35E8342A17847E74001C3B5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E8342917847E74001C3B5B /* Foundation.framework */; };
+		35E8342C17847E74001C3B5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E8342B17847E74001C3B5B /* CoreGraphics.framework */; };
+		35E8343217847E74001C3B5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35E8343017847E74001C3B5B /* InfoPlist.strings */; };
+		35E8343417847E74001C3B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8343317847E74001C3B5B /* main.m */; };
+		35E8343817847E74001C3B5B /* GameClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8343717847E74001C3B5B /* GameClockAppDelegate.m */; };
+		35E8343A17847E74001C3B5B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8343917847E74001C3B5B /* Default.png */; };
+		35E8343C17847E74001C3B5B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8343B17847E74001C3B5B /* Default@2x.png */; };
+		35E8343E17847E74001C3B5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8343D17847E74001C3B5B /* Default-568h@2x.png */; };
+		35E8344117847E74001C3B5B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E8343F17847E74001C3B5B /* MainStoryboard.storyboard */; };
+		35E8344417847E74001C3B5B /* GameClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8344317847E74001C3B5B /* GameClockViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35E8342417847E74001C3B5B /* GameClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E8342717847E74001C3B5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35E8342917847E74001C3B5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35E8342B17847E74001C3B5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35E8342F17847E74001C3B5B /* GameClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameClock-Info.plist"; sourceTree = "<group>"; };
+		35E8343117847E74001C3B5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35E8343317847E74001C3B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35E8343517847E74001C3B5B /* GameClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameClock-Prefix.pch"; sourceTree = "<group>"; };
+		35E8343617847E74001C3B5B /* GameClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameClockAppDelegate.h; sourceTree = "<group>"; };
+		35E8343717847E74001C3B5B /* GameClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameClockAppDelegate.m; sourceTree = "<group>"; };
+		35E8343917847E74001C3B5B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		35E8343B17847E74001C3B5B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		35E8343D17847E74001C3B5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35E8344017847E74001C3B5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		35E8344217847E74001C3B5B /* GameClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameClockViewController.h; sourceTree = "<group>"; };
+		35E8344317847E74001C3B5B /* GameClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameClockViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E8342117847E74001C3B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E8342817847E74001C3B5B /* UIKit.framework in Frameworks */,
+				35E8342A17847E74001C3B5B /* Foundation.framework in Frameworks */,
+				35E8342C17847E74001C3B5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E8341B17847E74001C3B5B = {
+			isa = PBXGroup;
+			children = (
+				35E8342D17847E74001C3B5B /* GameClock */,
+				35E8342617847E74001C3B5B /* Frameworks */,
+				35E8342517847E74001C3B5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E8342517847E74001C3B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E8342417847E74001C3B5B /* GameClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E8342617847E74001C3B5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35E8342717847E74001C3B5B /* UIKit.framework */,
+				35E8342917847E74001C3B5B /* Foundation.framework */,
+				35E8342B17847E74001C3B5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35E8342D17847E74001C3B5B /* GameClock */ = {
+			isa = PBXGroup;
+			children = (
+				35E8343617847E74001C3B5B /* GameClockAppDelegate.h */,
+				35E8343717847E74001C3B5B /* GameClockAppDelegate.m */,
+				35E8343F17847E74001C3B5B /* MainStoryboard.storyboard */,
+				35E8344217847E74001C3B5B /* GameClockViewController.h */,
+				35E8344317847E74001C3B5B /* GameClockViewController.m */,
+				35E8342E17847E74001C3B5B /* Supporting Files */,
+			);
+			path = GameClock;
+			sourceTree = "<group>";
+		};
+		35E8342E17847E74001C3B5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35E8342F17847E74001C3B5B /* GameClock-Info.plist */,
+				35E8343017847E74001C3B5B /* InfoPlist.strings */,
+				35E8343317847E74001C3B5B /* main.m */,
+				35E8343517847E74001C3B5B /* GameClock-Prefix.pch */,
+				35E8343917847E74001C3B5B /* Default.png */,
+				35E8343B17847E74001C3B5B /* Default@2x.png */,
+				35E8343D17847E74001C3B5B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35E8342317847E74001C3B5B /* GameClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E8344717847E74001C3B5B /* Build configuration list for PBXNativeTarget "GameClock" */;
+			buildPhases = (
+				35E8342017847E74001C3B5B /* Sources */,
+				35E8342117847E74001C3B5B /* Frameworks */,
+				35E8342217847E74001C3B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameClock;
+			productName = GameClock;
+			productReference = 35E8342417847E74001C3B5B /* GameClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E8341C17847E74001C3B5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GameClock;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = UF.rajwilhoit;
+			};
+			buildConfigurationList = 35E8341F17847E74001C3B5B /* Build configuration list for PBXProject "GameClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35E8341B17847E74001C3B5B;
+			productRefGroup = 35E8342517847E74001C3B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35E8342317847E74001C3B5B /* GameClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E8342217847E74001C3B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E8343217847E74001C3B5B /* InfoPlist.strings in Resources */,
+				35E8343A17847E74001C3B5B /* Default.png in Resources */,
+				35E8343C17847E74001C3B5B /* Default@2x.png in Resources */,
+				35E8343E17847E74001C3B5B /* Default-568h@2x.png in Resources */,
+				35E8344117847E74001C3B5B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E8342017847E74001C3B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E8343417847E74001C3B5B /* main.m in Sources */,
+				35E8343817847E74001C3B5B /* GameClockAppDelegate.m in Sources */,
+				35E8344417847E74001C3B5B /* GameClockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35E8343017847E74001C3B5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E8343117847E74001C3B5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35E8343F17847E74001C3B5B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E8344017847E74001C3B5B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35E8344517847E74001C3B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35E8344617847E74001C3B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35E8344817847E74001C3B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameClock/GameClock-Prefix.pch";
+				INFOPLIST_FILE = "GameClock/GameClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35E8344917847E74001C3B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameClock/GameClock-Prefix.pch";
+				INFOPLIST_FILE = "GameClock/GameClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E8341F17847E74001C3B5B /* Build configuration list for PBXProject "GameClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E8344517847E74001C3B5B /* Debug */,
+				35E8344617847E74001C3B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E8344717847E74001C3B5B /* Build configuration list for PBXNativeTarget "GameClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E8344817847E74001C3B5B /* Debug */,
+				35E8344917847E74001C3B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E8341C17847E74001C3B5B /* Project object */;
+}
